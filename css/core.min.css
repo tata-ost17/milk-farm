@@ -124,13 +124,13 @@ body {
   -webkit-transition: background-color 300ms ease-in-out;
   transition: background-color 300ms ease-in-out;
   min-height: 64px;
-  min-width: 302px;
+  max-width: 302px;
   background-color: var(--color-main-1);
   border: 1px solid var(--color-main-1);
   border-radius: 30px;
   color: #fff;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   padding: 16px 32px;
   position: relative;
   text-align: center;
